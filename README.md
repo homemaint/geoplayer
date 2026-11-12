@@ -12,7 +12,7 @@
 
 *GeoPlayer is a high-performance cross-platform desktop dashcam video player designed to decode, visualize, and synchronize embedded GPS telemetry directly from dashcam MP4/MOV footage with zero third-party cloud uploads.*
 
-[Features](#key-features) • [Quick Start](#quick-start) • [Architecture](#architecture) • [Telemetry Support](#telemetry-decoding-engine) • [Contributing](#contributing) • [License](#license)
+[Features](#key-features) • [Screenshots](#screenshots--visual-tour) • [Quick Start](#quick-start) • [Architecture](#architecture) • [Telemetry Support](#telemetry-decoding-engine) • [Contributing](#contributing) • [License](#license)
 
 </div>
 
@@ -117,6 +117,42 @@ npm run tauri build
 ```
 
 > **Windows Note (Paths with spaces)**: If your local directory path contains spaces (e.g. `D:\My Projects\...`), MinGW's `windres` requires running from a spaceless path or directory junction (e.g. `cmd /c mklink /J D:\geoplayer "D:\My Projects\Geoplayer"`).
+
+---
+
+## 📸 Screenshots & Visual Tour
+
+<div align="center">
+
+### 1. Main Cockpit HUD & Synchronized Map Replay
+*Luxury automotive instrument cluster, posted speed limit sign, microsecond clock, GPS satellite lock, heading gyro, vector map replay, and precision analog speedometer.*
+
+![GeoPlayer Main Interface](docs/screenshots/screenshot-main.png)
+
+<br/>
+
+### 2. Driving Telemetry Analytics & Speed Graph
+*Interactive speed profile chart with max speed tracking, distance traveled, and time-synchronized telemetry scrubbing.*
+
+![GeoPlayer Speed Graph & Telemetry](docs/screenshots/screenshot-speed-graph.png)
+
+<br/>
+
+### 3. Harsh Driving Event Detection
+*Automated forensic detection of emergency braking, harsh deceleration, sharp turns, and rapid acceleration with direct jump-to-event seeking.*
+
+![GeoPlayer Harsh Events Log](docs/screenshots/screenshot-events.png)
+
+<br/>
+
+### 4. Comprehensive Application & Telemetry Settings
+*Configurable speed/distance units, clock synchronization, hemisphere calibration, map providers (OpenFreeMap, TomTom, Esri, Offline Schematic), and tourist guide options.*
+
+| Units, Clock & GPS Settings | Map Styles & Road Data Settings |
+|:---:|:---:|
+| ![Settings Units & Clock](docs/screenshots/screenshot-setting.png) | ![Settings Map & Roads](docs/screenshots/screenshot-setting2.png) |
+
+</div>
 
 ---
 

@@ -21,6 +21,7 @@ Cargo.lock
 # Test files & temporary scratch files
 gaugetest.html
 maptest.html
+Screenshot*.png
 
 # Editor directories and files
 .vscode/*

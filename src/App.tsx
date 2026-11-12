@@ -240,6 +240,10 @@ export default function App() {
   // Native drag-and-drop for video files or folders
   useEffect(() => {
     let unlisten: (() => void) | undefined;
+    // `getCurrentWebview()` throws when the page is not running inside the
+    // Tauri shell (e.g. the dev server opened in a normal browser) — the
+    // desktop-only listener is simply skipped there.
+    if (!("__TAURI_INTERNALS__" in window)) return;
     getCurrentWebview()
       .onDragDropEvent(async (event) => {
         if (event.payload.type !== "drop") return;
