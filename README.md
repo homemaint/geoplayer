@@ -12,7 +12,7 @@
 
 *GeoPlayer is a high-performance cross-platform desktop dashcam video player designed to decode, visualize, and synchronize embedded GPS telemetry directly from dashcam MP4/MOV footage with zero third-party cloud uploads.*
 
-[Features](#key-features) • [Quick Start](#quick-start) • [Architecture](#architecture) • [Telemetry Support](#telemetry-decoding-engine) • [Screenshots](#screenshots) • [Contributing](#contributing) • [License](#license)
+[Features](#key-features) • [Quick Start](#quick-start) • [Architecture](#architecture) • [Telemetry Support](#telemetry-decoding-engine) • [Contributing](#contributing) • [License](#license)
 
 </div>
 
