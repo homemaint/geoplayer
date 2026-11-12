@@ -24,6 +24,7 @@ maptest.html
 /Screenshot*.png
 
 # Editor directories and files
+.cargo/config.toml
 .vscode/*
 !.vscode/extensions.json
 .idea
