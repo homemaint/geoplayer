@@ -5,6 +5,7 @@
 **Next-Gen Open-Source Dashcam Video Player with Embedded GPS Telemetry & Cockpit HUD**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Latest Release](https://img.shields.io/github/v/release/homemaint/geoplayer?color=brightgreen&label=Latest%20Release)](https://github.com/homemaint/geoplayer/releases/latest)
 [![Tauri v2](https://img.shields.io/badge/Tauri-v2-FFC131?logo=tauri&logoColor=white)](https://v2.tauri.app/)
 [![React 19](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
 [![Rust](https://img.shields.io/badge/Rust-1.85+-orange?logo=rust&logoColor=white)](https://www.rust-lang.org/)
@@ -12,9 +13,23 @@
 
 *GeoPlayer is a high-performance cross-platform desktop dashcam video player designed to decode, visualize, and synchronize embedded GPS telemetry directly from dashcam MP4/MOV footage with zero third-party cloud uploads.*
 
-[Features](#key-features) • [Screenshots](#screenshots--visual-tour) • [Quick Start](#quick-start) • [Architecture](#architecture) • [Telemetry Support](#telemetry-decoding-engine) • [Contributing](#contributing) • [License](#license)
+[Downloads](#-download--installation) • [Features](#key-features) • [Screenshots](#screenshots--visual-tour) • [Quick Start](#quick-start) • [Architecture](#architecture) • [Telemetry Support](#telemetry-decoding-engine) • [Contributing](#contributing) • [License](#license)
 
 </div>
+
+---
+
+## 💾 Download & Installation
+
+Pre-built binaries are available for Windows (64-bit). No complex installation or environment setup is required.
+
+| Platform | Format | Download Link | Notes |
+|:---|:---|:---|:---|
+| **Windows 10 / 11 (x64)** | **Installer (`.exe`)** | [⬇️ **Download Setup (.exe)**](https://github.com/homemaint/geoplayer/releases/latest) | Standard NSIS installer, desktop icon, start menu |
+| **Windows 10 / 11 (x64)** | **MSI Package (`.msi`)** | [⬇️ **Download MSI (.msi)**](https://github.com/homemaint/geoplayer/releases/latest) | Windows Installer package (enterprise / silent deployment) |
+| **All Platforms** | **Source Code** | [⬇️ **Source (.zip)**](https://github.com/homemaint/geoplayer/archive/refs/heads/main.zip) | Build from source with Node.js & Rust |
+
+> 💡 **Tip**: You can view all release notes, checksums, and previous versions on the [**GitHub Releases Page**](https://github.com/homemaint/geoplayer/releases).
 
 ---
 
