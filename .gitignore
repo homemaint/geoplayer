@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / Build artifacts
+node_modules
+dist
+dist-ssr
+*.local
+
+# Rust / Cargo build artifacts
+target
+src-tauri/target
+Cargo.lock
+
+# Test files & temporary scratch files
+gaugetest.html
+maptest.html
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
