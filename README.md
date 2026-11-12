@@ -120,6 +120,35 @@ npm run tauri build
 
 ---
 
+## 📸 Screenshots & Showcase
+
+<div align="center">
+
+### Luxury Automotive Cockpit HUD & Telemetry Overview
+*Real-time speed cluster, posted road limit sign, microsecond clock, GPS lock, gyro heading, live route replay, and harsh deceleration detection.*
+
+![GeoPlayer Main Cockpit HUD](docs/screenshots/main-cockpit-hud.png)
+
+<br/>
+
+### Night Driving with Synchronized Road Telemetry & Live Cockpit
+*Night mode video playback synchronized with TomTom/OpenFreeMap route line and real-time G-force vector ball.*
+
+![GeoPlayer Night Drive HUD](docs/screenshots/night-drive-hud.png)
+
+<br/>
+
+### Vector Map Route Replay & 60 FPS Analog Instrument Gauge
+*Interactive MapLibre GL 3D vector map with click-to-seek, combined with smooth 60fps critically-damped speedometer.*
+
+| Interactive MapLibre GL Vector Route | Precision Cockpit Analog Gauge |
+|:---:|:---:|
+| ![Vector Map Replay](docs/screenshots/map-vector-route.png) | ![Analog Speedometer Gauge](docs/screenshots/telemetry-speedometer.png) |
+
+</div>
+
+---
+
 ## 🛰️ Telemetry Decoding Engine
 
 GeoPlayer includes a native Rust port of the forensic `LIGOGPSINFO` specification:
